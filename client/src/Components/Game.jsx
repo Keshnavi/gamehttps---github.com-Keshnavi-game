@@ -19,7 +19,7 @@ const Game = () => {
   const [gameOver, setGameOver] = useState(false); // Game over state
 
   const apiUrl = 'https://marcconrad.com/uob/banana/api.php';
-  const savePointsUrl = 'https://your-api.com/savePoints'; // Replace with your actual URL to save points
+
 
   const fetchGameData = async () => {
     try {
